@@ -1,0 +1,15 @@
+# .rubocop.yml
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+  Exclude:
+    - 'db/schema.rb'
+    - 'config/**/*'
+    - 'bin/**/*'
+
+# Metrics/LineLength:
+#   Max: 120
+
+Layout/LineLength:
+  Max: 120
+
